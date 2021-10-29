@@ -60,7 +60,7 @@ export default function App() {
 
     try {
       await login({ userName, password });
-      // setError("");
+      setError("");
       setIsLoggedIn(true);
     } catch (error) {
       setError("Incorrect username or password!");
@@ -75,8 +75,8 @@ export default function App() {
     setIsLoggedIn(false);
     setUserName("");
     setPassword("");
-    // setIsLoading(false);
-    // setError("");
+    setIsLoading(false);
+    setError("");
   }
 }
 

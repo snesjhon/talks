@@ -32,6 +32,7 @@ const reducer = (state, actions) => {
     case "loading":
       return {
         ...state,
+        error: "",
         isLoading: true,
       };
     case "loggedIn": {
