@@ -1,0 +1,22 @@
+.container {
+  font-size: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+form:last-child{
+  display: block;
+}
+
+.error {
+  color: red;
+}
